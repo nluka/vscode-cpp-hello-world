@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "Build C++",
+      "command": "C:\\MinGW\\bin\\g++.exe",
+      "args": [
+        "-Wall",
+        "-std=c++17",
+        "-g",
+        "${workspaceFolder}\\src\\*.cpp",
+        "-o",
+        "${workspaceFolder}\\bin\\hello-world.exe"
+      ],
+      "options": {
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "isDefault": true,
+        "kind": "build"
+      },
+      "detail": "compiler: C:\\MinGW\\bin\\cpp.exe"
+    }
+  ]
+}
