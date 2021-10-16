@@ -3,25 +3,22 @@
   "tasks": [
     {
       "type": "cppbuild",
-      "label": "Build C++",
-      "command": "C:\\MinGW\\bin\\g++.exe",
+      "label": "C/C++ g++.exe build project",
+      "command": "g++",
       "args": [
-        "-Wall",
-        "-std=c++17",
         "-g",
-        "${workspaceFolder}\\src\\*.cpp",
+        "src/*.cpp",
         "-o",
-        "${workspaceFolder}\\bin\\hello-world.exe"
+        "${workspaceFolder}\\bin\\Application.exe"
       ],
       "options": {
-        "isDefault": true
+        "cwd": "${workspaceFolder}"
       },
-      "problemMatcher": ["$gcc"],
       "group": {
         "isDefault": true,
         "kind": "build"
       },
-      "detail": "compiler: C:\\MinGW\\bin\\cpp.exe"
+      "detail": "compiler: g++"
     }
   ]
 }

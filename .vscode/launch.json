@@ -5,22 +5,21 @@
       "name": "(gdb) Launch",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}\\bin\\hello-world.exe",
-      "args": ["arg1", "arg2"],
+      "program": "${workspaceFolder}\\bin\\Application.exe",
+      "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
       "externalConsole": true,
       "MIMode": "gdb",
-      "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+      "miDebuggerPath": "gdb",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
           "text": "-enable-pretty-printing",
           "ignoreFailures": true
         }
-      ],
-      "preLaunchTask": "Build C++"
+      ]
     }
   ]
 }
