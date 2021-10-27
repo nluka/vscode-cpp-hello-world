@@ -3,11 +3,12 @@
   "tasks": [
     {
       "type": "cppbuild",
-      "label": "C++ build project",
+      "label": "build-project",
       "command": "g++",
       "args": [
         "-g",
-        "src/*.cpp",
+        "${workspaceFolder}\\src\\*.cpp",
+        "${workspaceFolder}\\src\\core\\*.cpp",
         "-o",
         "${workspaceFolder}\\bin\\Application.exe"
       ],

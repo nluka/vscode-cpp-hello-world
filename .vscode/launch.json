@@ -6,7 +6,7 @@
       "type": "cppdbg",
       "request": "launch",
       "program": "${workspaceFolder}\\bin\\Application.exe",
-      "args": [],
+      "args": ["arg1", "arg2"],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
@@ -20,7 +20,7 @@
           "ignoreFailures": true
         }
       ],
-      "preLaunchTask": "C++ build project"
+      "preLaunchTask": "build-project"
     }
   ]
 }
