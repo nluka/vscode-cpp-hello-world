@@ -1,2 +1,5 @@
 bin/*
 settings.json
+
+# delete the following file and line after cloning repo
+!bin/binaries_go_here

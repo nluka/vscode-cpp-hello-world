@@ -5,9 +5,9 @@ Boilerplate for C++ projects using MinGW in Visual Studio Code.
 ## Instructions
 
 1. Clone repo OR copy `.vscode` and `src` directories into project
-2. Create a directory named `bin` in project root
-3. Install the [C/C++ for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) extension
-4. Open any source file within the `src` directory and use `Ctrl + Shift + B` to build or `Ctrl + F5` to run in debugger
+2. Install the [C/C++ for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) extension
+3. Open any source file within the `src` directory and use `Ctrl + Shift + B` to build or `Ctrl + F5` to run in debugger
+4. (Optional) Delete the file `bin/binaries_go_here` and lines 4-5 in `.gitignore`, they are no longer needed
 
 ## Notes
 
@@ -20,4 +20,4 @@ Boilerplate for C++ projects using MinGW in Visual Studio Code.
 
 ## Troubleshooting
 
-- If you get the errors `'g++' is not recognized as an internal or external command, operable program or batch file.` or `'gdb' is not recognized as an internal or external command, operable program or batch file.`, make sure g++ and gdb are added to your PATH. Alternatively, you can specify the exact path to your compiler and debugger of choice instead.
+- If you get the errors `'g++' is not recognized as an internal or external command, operable program or batch file.` or `'gdb' is not recognized as an internal or external command, operable program or batch file.`, make sure g++ and gdb are added to your PATH. Alternatively, you can specify the exact path to your compiler and debugger of choice instead within `.vscode/tasks.json`.
